@@ -1,0 +1,30 @@
+Java Quiz Generator Developer Notes - Base Structure Version 1.0.0
+
+This file is meant to initiate documentation for the Java Quiz Generator. This file
+in particular is meant for the base structure to kick off the project. 
+
+Base Structure:
+
+  BaseFile (Class - Start and End Methods):
+    Writes in base code for all Java quizzes.
+
+  GUI Output Class?
+
+  QuestionGen (Class):
+     - Questions array, adds 1+ to NUMITEMS when user wants to add question
+     - Two Versions? Single vs. Multi answers?
+     - How to keep track of question order? Just write to file immediately?
+
+  AnswerGen (Class):
+     - Called directly after QuestionGen
+     - Two versions? Single vs. Multi answers?
+
+Things to look into:
+
+    Main GUI .jar file for executing already made quizzes and a button for creating new
+
+    For proof reading code and stuff - driver and panel classes
+    
+Note: Proof reading program source code should be in seperate folder, as it is essentially another project.
+Also, the Main navigation GUI should also have it's own source code folder. Along with another folder for created quizzes...
+Only file that should be outside of the source code folders should be the Main .jar...
